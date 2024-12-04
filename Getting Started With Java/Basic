@@ -1,0 +1,73 @@
+ - What is Java?
+
+Java is a widely-used programming language originally developed by Sun Microsystems (now owned by Oracle Corporation).
+
+It was designed to be platform-independent, meaning that Java programs can run on any device that has a Java Virtual Machine (JVM) installed, regardless of the underlying hardware and operating system.
+
+ - Strengths of Java
+
+Platform Independence: One of the key strengths of Java is its platform independence. It follows the WORA (write once run anywhere) principle.
+
+Object Oriented: Java is an object-oriented programming language, which promotes modular and reusable code through the use of classes and objects. This makes it easier to manage and maintain large-scale projects.
+
+Robustness: Java was designed with a strong emphasis on reliability and robustness. It includes features such as strong memory management, exception handling, and type safety, which help developers write more stable and secure code.
+
+Large Standard Library: Java comes with a comprehensive standard library (Java API) that provides pre-built modules for common tasks such as networking, I/O, and database access. This reduces development time and makes it easier to build complex applications.
+
+Community Support: Java has a large and active community of developers, which means there are plenty of resources, tutorials, and third-party libraries available to help solve problems and streamline development.
+
+ - Weaknesses of Java
+
+Performance: While Java offers good performance for most applications, it may not be as efficient as some lower-level languages like C or C++. This can be a concern for applications requiring high computational performance or low-level system access.
+
+Memory Consumption: Java applications typically consume more memory compared to languages like C or C++. This can be a drawback for resource-constrained environments or applications running on devices with limited memory.
+
+Verbosity: Java code can sometimes be more verbose compared to other programming languages, which may lead to longer development times and larger codebases.
+Why Use Java?
+
+Cross-Platform Compatibility: Java's platform independence allows developers to write code once and deploy it across multiple platforms, including desktops, servers, mobile devices, and embedded systems. Because the code runs on JVM.
+
+Scalability: Java's robustness and scalability make it suitable for building large-scale, enterprise-level applications that can handle heavy workloads and high traffic.
+
+Rich Ecosystem: Java has a vast ecosystem of tools, frameworks, and libraries that support various application domains, including web development, enterprise software, mobile apps, and scientific computing.
+
+Security: Java's built-in security features, such as bytecode verification and sandboxing, help protect against malicious code and unauthorized access to system resources.
+
+Industry Adoption: Java is widely used in various industries, including finance, e-commerce, telecommunications, and gaming, making it a valuable skill for developers seeking job opportunities and career growth.
+
+
+ - What are JDK, JRE and JVM?
+
+JDK (Java Development Kit): The JDK is a software development kit that provides tools and libraries necessary for developing Java applications. It includes the Java compiler (javac), which translates Java source code into bytecode, the Java Virtual Machine (JVM), and other development tools such as debugger and documentation generator.
+
+The JDK also includes the Java Runtime Environment (JRE), allowing developers to run Java applications on their local machines during development.
+
+JRE (Java Runtime Environment): The JRE is a runtime environment that provides the minimum resources needed to run Java applications on a target system. It includes the Java Virtual Machine (JVM), which interprets and executes Java bytecode, as well as core libraries and other runtime components required for running Java applications.
+
+The JRE does not include development tools like compilers and debuggers, making it smaller and more suitable for end-users who only need to run Java applications.
+
+JVM (Java Virtual Machine): The JVM is a virtual layer that provides an execution environment for Java bytecode. It interprets or compiles Java bytecode into native machine code that can be executed by the underlying hardware. 
+The JVM is responsible for various tasks, including memory management, garbage collection, and exception handling, ensuring that Java applications run smoothly and securely across different platforms. 
+
+JVM implementations may vary across different operating systems and hardware architectures, but they all adhere to the Java Virtual Machine Specification, which defines the behavior and features of the JVM.
+
+In summary, the JDK is used by developers to create Java applications, the JRE is needed to run Java applications on target systems, and the JVM is the runtime environment responsible for executing Java bytecode.
+
+ - Java Coding Conventions
+
+Like any other programming languages, Java has some of its own coding conventions. We need to follow these conventions, so that our codes can align with the community standards. Below are some conventions:
+
+Class name should follow PascalCase (also known as UpperCamelcase)
+
+Correct example: MyJavaClass.java, MainClass.java etc.
+Wrong example: myClass.java, mainclass.java, my-class.java, my_class.java etc.
+
+Each class can have only 1 public class and 0-unlimited private class.
+Variable names should follow camelCase convention.
+Base package name should be unique.
+All the classes should be put inside appropriate packages.
+
+Note About Java Code Compilation and Execution
+
+Java uses both compiler and interpreter. The java compiler (javac) is used to compile the java code to bytecode. Then JVM interprets the bytecode using the interpreter before execution.
+
